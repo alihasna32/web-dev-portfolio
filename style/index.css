@@ -177,3 +177,84 @@ main section{
     box-shadow: 0px 6px 5px 3px rgba(0, 0, 0, 0.144);
 
 }
+
+/* experience section */
+.section-title{
+    text-align: center;
+}
+
+.resume-container{
+    display:flex;
+    gap: 71px;
+}
+
+.resume-column-title {
+    color: #474747;
+}
+
+.experience-title{
+    color: #474747;
+}
+
+.experience-sub-title{
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.experience-description{
+    color: #757575;
+    border-bottom: 1px solid #333;
+}
+
+.resume-download-cv{
+    margin-top: 50px;
+    text-align: center; 
+}
+
+.btn-primary2{
+    margin-bottom: 105px ;
+     background-color: #FD6E0A;
+    padding: 15px 35px;
+    border: 2px solid #FD6E0A;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* footer section */
+.footer-section{
+    display: flex; 
+    background-color: #FFF8F3;
+}
+
+
+.first-colume{
+    padding: 130px 190px;
+    margin: 30px 80px;
+}
+
+footer input[type="text"]{
+    height: 64ox;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 20px;
+    margin-top: 24px ;
+}
+
+.message{
+    margin-top: 24px;
+    border-radius: 4px;
+}
+
+.btn-primary3{
+    background-color: #FD6E0A;
+    padding: 8px 16px;
+    border: 2px solid #FD6E0A;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin:0px 0px ;
+
+}
