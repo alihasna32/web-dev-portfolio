@@ -4,6 +4,7 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+    
 }
 
 /* shared style */
@@ -257,4 +258,133 @@ footer input[type="text"]{
     font-weight: bold;
     margin:0px 0px ;
 
+}
+
+
+/* Responsive for mobile */
+@media screen and (max-width: 576px) {
+  /* navigation */
+   nav{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+  .navigation{
+    flex-direction: column;
+    align-items: center;
+}
+
+
+   .navigation ul, li, .btn-primary{
+    flex-direction: column;
+    align-items: center; 
+    margin-right: 17px;
+    gap: 10px;
+}
+
+  /* banner */
+  .banner{
+     flex-direction: column;
+     align-items: center;   
+  }
+
+  .banner-content {
+    margin-left: 0;
+    max-width: 90%;
+  }
+
+  .banner-content .banner-greetings, .banner-title{
+    margin-left: 15%;
+  }
+
+  .banner-content .btn1{
+    margin-left: 20%; 
+  }
+
+  .banner-content .btn2{
+    margin-left: 26.5%;
+  }
+
+  .banner-profile-pic{
+    flex-direction: column;
+     align-items: center;
+    max-width: 80%;
+  }
+
+  .header{
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin-left: 0px;
+}   
+
+  /* About secondary bg */
+    .about {
+    padding: 50px 20px;
+  }
+
+  .about-items {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  /* Skills Section */
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skill {
+    width: 80%;
+  }
+
+  /* Resume Section */
+  .resume-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  /* footer */
+  .footer-section, .first-colume{
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    margin: 0 0 0 0;
+  }
+}
+
+/* Responsive for Tablet */
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    
+/* header */
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: left center, bottom right;
+    margin-left: 23px;
+}   
+
+    /* banner */
+  .banner{
+     flex-direction: column;
+     align-items: center;   
+  }
+
+  /* footer */
+  .footer-section, .first-colume{
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    margin: 0 0 0 70;
+    gap: 50px;
+
+  }
+
+  .first-colume{
+        width: 300px;
+  }
 }
